@@ -4,4 +4,6 @@
 
 <h1>FRONTEND PARA O BACKEND DE CHAT</h1>
 
-<a href="https://github.com/luizrgf2/chat">Backend</a>
+
+
+A documentação de todo o projeto esta no repositório do backend <a href="https://github.com/luizrgf2/chat">Backend</a>.

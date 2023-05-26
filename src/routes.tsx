@@ -6,6 +6,7 @@ import { NotFoundPage } from "./page/notFound";
 import { ValidationPage } from "./page/validateUser";
 import { PrivateRouter } from "./components/privateRouter";
 import { ChatPage } from "./page/chat";
+import { PrivacyPolicyPage } from "./page/privacyPolicy";
 
 
 
@@ -24,5 +25,9 @@ export const router = createBrowserRouter([
     {
         path:"/chat",
         element:<PrivateRouter><ChatPage></ChatPage></PrivateRouter>
+    },
+    {
+        path:"/privacyPolicy",
+        element:<PrivacyPolicyPage></PrivacyPolicyPage>
     }
 ])

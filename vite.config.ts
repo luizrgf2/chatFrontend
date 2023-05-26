@@ -13,9 +13,9 @@ export default defineConfig({
   server:{
     proxy: {
       "/socket.io": {
-        target: "http://localhost:8080",
+        target: "https://websocket.chat-app.online",
         ws: true,
-      },
+      }
     }
   }
 
